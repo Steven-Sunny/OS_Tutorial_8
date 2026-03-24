@@ -9,6 +9,9 @@
 
 #define MEMORY 1024
 
+// Function prototype for kill()
+int kill(pid_t pid, int sig);
+
 // ================= STRUCT =================
 typedef struct {
     char name[256];
